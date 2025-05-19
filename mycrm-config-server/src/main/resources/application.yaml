@@ -1,18 +1,14 @@
 spring:
   application:
-    name: user_profile
+    name: mycrm-config-server
     
+  profiles:
+    active: git
     
-
-  datasource:
-    url: jdbc:mysql://localhost:3306/my_crm
-    username: root
-    password: mydatabase
-
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ignatony/my-crm
+          search-paths: config
+    
