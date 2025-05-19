@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mycrm-gateway-server
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      httpclient:
+        connect-timeout: 60000
+        response-timeout: 60s
+        
+server:
+  port: 8888

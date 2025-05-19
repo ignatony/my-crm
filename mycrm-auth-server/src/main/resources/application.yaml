@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mycrm-Auth-server
+    
+  config:
+    import: mycrm-config-server:http://localhost:8888/  
+  
+server:
+  port: 0 
+
+
+application-title: mycrm-Auth-server
