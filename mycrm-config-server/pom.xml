@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.corecode.mycrm</groupId>
-	<artifactId>mycrm</artifactId>
+	<artifactId>mycrm-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>myCrm</name>
-	<description>This project is My Customer Relationship Management</description>
+	<name>mycrm-config-server</name>
+	<description>This project is My Customer Relationship Management config server</description>
 	<url />
 	<licenses>
 		<license />
@@ -33,10 +33,4 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>21</java.version>
 	</properties>
-
-	<modules>
-		<module>mycrm-api-gateway</module>
-		<module>mycrm-config-server</module>
-		<module>mycrm-eureka-server</module>
-	</modules>
     </project>
